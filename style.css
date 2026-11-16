@@ -8,92 +8,6 @@
  ****** Elements du forum qui définissent sa structure et sa hiérachie sur toutes les pages 
  ****** (ne les RENOMMEZ PAS, ils sont généraux aux pages Web ou à Forumactif) ------- ******/
 
-/*** ROOT 
- *** Tutoriel pour utiliser les variables
- *** https://blankthemerpg.forumactif.com/t139-utiliser-les-variables-css ***/
-:root {
-    --acc1: var(--textColorAccent);
-    --acc2: var(--neutralDark);
-    --acc3:var(--contrastLight);  
-    --white: var(--contrastLight);
-    --black: var(--textColorAccent);
-    --border1: 1px solid var(--neutral);
-    --background1: var(--contrastLight);
-    --background3: var(--textColorAccent);
-    --gr1: #000;
-    --gr2: #DD9F8C;
-    --gr3:#6CB29F;
-    --gr4: #74ABB6;
-    --gr5: #D7A329;
-}
-
-/* VARIABLE DU MODE DE BASE (ici clair) */
-:root {
-  color-scheme: light;
-  --header: url('https://images4.imgbox.com/12/bf/d28z5RTd_o.png');
-
-  --neutral: #faf0df;
-  --neutral2: #debfad;
-  --neutralDark: #c18d7c;
-  --neutralDarker: #a37262;
-
-  --contrast: #C93B22;
-  --contrastLight: #FFFFFF;
-  --contrastLighter: #c3c8f3;
-
-  --accentClr: #4b57c5;
-  --accentClrDark: #333c92;
-
-  --textColor: #302826;
-  --textColorAccent: #000;
-
-  --border: 1px solid #e5e5e5;
-
-  --shadowBox: 0 0 20px #23265730;
-
-  --little-size: 12px;
-  --normal-size: 14px;
-  --medium-size: 16px;
-  --large-size: 18px;
-  --title-size: 22px;
-
-  --font: "Open Sans";
-}
-
-/* VARIABLES DU MODE INVERSE (ici sombre) */
-[data-color-scheme="dark"] {
-  color-scheme: dark;
-  --header: url('https://images4.imgbox.com/12/bf/d28z5RTd_o.png');
-
-  --neutral: #292C33;
-  --neutral2: #181a21;
-  --neutralDark: #181a21;
-  --neutralDarker: #313543;
-
-  --contrast: #e5e5f0;
-  --contrastLight: #f4f4f4;
-  --contrastLighter: #40485e;
-
-  --accentClr: #7583ff;
-  --accentClrDark: #333c92;
-
-  --textColor: #c7c5cd;
-  --textColorAccent: #9696A8;
-
-  --border: 1px solid #2b2e3b;
-
-  --shadowBox: 0 0 20px var(--neutralDark);
-}
-
-
-/* S'applique à TOUS les éléments du forum*/
-* {
-  box-sizing: border-box;
-  /*évite que les éléments soient agrandis par le padding*/
-  /* SCROLLBAR CUSTOM POUR MOZILLA */
-  scrollbar-color: var(--contrastLight);
-  scrollbar-width: thin;
-}
 
 /*** ------------------------------- ***/
 /*** TOUTES LES PAGES --------------- ***/
@@ -3030,24 +2944,6 @@ form[name="form_login"] .content {
 
 
 /*****LISTE SUJET - ICEANDFIRE*****/
-:root {
-    --acc1: var(--textColorAccent);
-    --acc2:var(--neutralDark);
-    --acc3:var(--contrastLight);  
-    --white: var(--contrastLight);
-    --black: var(--textColorAccent);
-    --border: var(--neutral);
-    --border1: 1px solid var(--neutral);
-    --background1: var(--contrastLight);
-    --background2: var(--neutral2);
-    --background3: var(--neutralDark);
-    --degrade: linear-gradient(-45deg,var(--neutral),var(--neutralDark))!important;
-    --gr1: #000;
-    --gr2: #DD9F8C;
-    --gr3:#6CB29F;
-    --gr4: #74ABB6;
-    --gr5: #D7A329;
-}
 
 /************************* LISTE DES SUJETS *************************/
 
