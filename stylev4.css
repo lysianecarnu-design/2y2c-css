@@ -2686,7 +2686,7 @@ margin:0;}
     margin-top: 0;}
 
 /*titre de liste des sujets*/
-.cat_titre { background: var(--neutraDark);
+.cat_titre { background: var(--neutralDark);
     border-radius: 7px 7px 0 0;
     color: #fff;
     font-weight: 300;
