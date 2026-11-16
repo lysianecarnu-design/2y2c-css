@@ -1120,7 +1120,7 @@ text-align:center;
     width: 28px;
     height: 28px;
     padding: 2px;
-    border: 1px solid var(--border);
+    border: var(--border1);
     object-fit: cover;}
 
 /*décide de la largeur de la séparation entre les images*/
@@ -1133,8 +1133,8 @@ text-align:center;
 
 /*la partie avec prénom, nom, en gros les informations du staff*/
 .contenu {  
-      border-bottom: 1px solid var(--border);
-    border-top: 1px solid var(--border);
+      border-bottom: var(--border1);
+    border-top: var(--border1);
     box-sizing: border-box;
     margin-top: 5px;
     opacity: 0;
@@ -1183,7 +1183,7 @@ h {     color: var(--white);
 /*CONTEXTE ET HOVER*/
 
 /* corps du contexte (container en gros qui tient tout*/
-.gif_pa {     border: 1px solid var(--border);
+.gif_pa {     border: var(--border1);
     border-radius: 7px;
     display: inline-block;
     grid-area: 1 / 2 / span 5 /span 2;
@@ -1262,7 +1262,7 @@ background-color: var(--background);
     color: #000000}
 
 /*container avec les règles*/
-.item_5 {       border: 1px solid var(--border);
+.item_5 {      border: var(--border1);
     border-radius: 4px;
     height: 77px;
     line-height: 15px;
@@ -1278,7 +1278,7 @@ background-color: var(--background);
 /*TIMELINE*/
 
 /*container timeline*/
-.item_8 {      border: 1px solid var(--border);
+.item_8 {      border: var(--border1);
     border-radius: 5px;
     grid-area: 1 / 5 / span 2 /span 2;
     height: 57px;
@@ -1305,7 +1305,7 @@ background-color: var(--background);
 /*PARTIE PÉRIODE DE JEU*/
 
 /*container période de jeu*/
-.item_9 {      border-bottom: 1px solid var(--border);
+.item_9 {      border-bottom: var(--border1);
     color: var(--textColorAccent);
     font-size: 11px;
     font-weight: 600;
@@ -1335,7 +1335,7 @@ j {color:var(--neutral);
 
 /*style des images des membres du mois*/
 .mdm1, .mdm2 {
-          border: 1px solid var(--border);
+          border: var(--border1);
     border-radius: 10px;
     height: 30px;
     object-fit: cover;
@@ -1357,7 +1357,7 @@ j {color:var(--neutral);
 /*PARTIE PARTENARIATS*/
 
 /*container de la partie partenariats*/
-.item_11 {          border-top: 1px solid var(--border);
+.item_11 {          border-top: var(--border1);
     margin-top: 5px;
     padding-top: 3px;}
 
@@ -1365,7 +1365,7 @@ j {color:var(--neutral);
 .select_pa {margin-top: 3px;
   border-width: 1px;
   border-radius: 5px;
-  border: 1px solid var(--border);
+  border: var(--border1);
   width: 175px;
   letter-spacing: 1px;
   font-size: 8px;
@@ -1399,7 +1399,7 @@ y {  color: var(--textColorAccent);}
 /*PARTIE CRÉDITS / NE PAS TOUCHER */
 .item_12 {    grid-area: 6 / 1 / span 1 /span 6;
     font-size: 7px;
-    border-top: 1px solid var(--border);
+    border-top: var(--border1);
     letter-spacing: 1px;
     padding-top: 5px;
   color: #d1d1d1;}
