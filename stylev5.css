@@ -2224,6 +2224,14 @@ a.fa-mention {
   padding: 5px;
 }
 
+/* Overflow uniquement sur la balise [code] */
+#codeBox dd {
+  max-height: 200px; /* Ajuste la hauteur max souhaitée */
+  overflow-y: auto;  /* Barre de défilement verticale si le code dépasse */
+  overflow-x: auto;  /* Barre horizontale si une ligne est très longue */
+  padding-top: 25px; /* Évite que la 1ère ligne de code ne passe sous le bouton "copier" */
+}
+
 /* Nom de balise "code, spoiler" */
 .codebox dt {
   font-weight: 700;
